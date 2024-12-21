@@ -8,11 +8,11 @@ setup(
     long_description_content_type="text/markdown",
     author="vinit",
     author_email="vineetp6@gmail.com",
-    url="https://github.com/vineetp6/CustomCLILang",  # Replace with your GitHub repo URL
+    url="https://github.com/vineetp6/CustomCLILang.git",  
     packages=find_packages(),
     entry_points={
         "console_scripts": [
-            "customcli=cli_interpreter:main",  # Expose `customcli` as a CLI command
+            "customcli=cli_interpreter:main",  # Exposed `customcli` as a CLI command
         ],
     },
     install_requires=[],
