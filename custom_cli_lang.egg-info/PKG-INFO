@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: custom-cli-lang
+Version: 0.1.0
+Summary: A Custom CLI Language Interpreter for Windows tasks.
+Home-page: https://github.com/yourusername/custom-cli-lang
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Custom CLI Language Interpreter
+
+## Overview
+This project implements a simple programming language designed to perform Windows tasks from the command line. It allows you to execute commands like opening applications, creating, or deleting files.
+
+## Features
+- Open applications: `open notepad`
+- Create files: `create example.txt`
+- Delete files: `delete example.txt`
+- Easy-to-extend architecture
+- Optimized error handling and debugging
+
+## Installation
+
+### Prerequisites
+- **Python 3.7 or higher**
+- **Windows Operating System**
+
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repo/custom-cli-lang.git

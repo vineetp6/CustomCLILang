@@ -1,0 +1,7 @@
+README.md
+setup.py
+custom_cli_lang.egg-info/PKG-INFO
+custom_cli_lang.egg-info/SOURCES.txt
+custom_cli_lang.egg-info/dependency_links.txt
+custom_cli_lang.egg-info/entry_points.txt
+custom_cli_lang.egg-info/top_level.txt
