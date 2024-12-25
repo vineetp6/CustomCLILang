@@ -23,6 +23,7 @@
 #     main()
 
 from core.app_operations import search_and_open_file
+import sys
 
 def interpret_command(command: str):
     """
@@ -46,3 +47,18 @@ def interpret_command(command: str):
         return search_and_open_file(args)
     else:
         return f"Unknown command: {action}"
+
+
+def main():
+    """
+    Main entry point for the CLI application.
+    """
+    if len(sys.argv) > 1:
+        command = " ".join(sys.argv[1:])
+        result = interpret_command(command)
+        print(result)
+    else:
+        print("No command provided. Usage: open <keyword>")
+
+if __name__ == "__main__":
+    main()

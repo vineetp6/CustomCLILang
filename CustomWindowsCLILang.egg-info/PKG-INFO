@@ -1,31 +1,10 @@
 Metadata-Version: 2.1
 Name: CustomWindowsCLILang
-Version: 2.0.1
-Summary: A custom CLI programming language for handling Windows tasks.
-Home-page: https://github.com/vineetp6/CustomWindowsCLILang
+Version: 2.0.3
+Summary: A custom CLI language for managing Windows tasks
 Author: vinit
 Author-email: vineetp6@gmail.com
-License: MIT
 Classifier: Programming Language :: Python :: 3
 Classifier: Operating System :: Microsoft :: Windows
-Classifier: License :: OSI Approved :: MIT License
-Requires-Python: >=3.7
-Description-Content-Type: text/markdown
+Requires-Python: >=3.6
 License-File: LICENSE
-
-# Custom CLI Language Interpreter
-
-## Overview
-A custom command-line interpreter written in Python to execute basic tasks on Windows. 
-Commands like opening applications, creating files, and deleting files are supported.
-
-## Features
-- Open applications (`open notepad`)
-- Create files (`create example.txt`)
-- Delete files (`delete example.txt`)
-- Extendable with additional actions.
-
-## Usage
-1. Run the interpreter:
-   ```bash
-   python cli_interpreter.py

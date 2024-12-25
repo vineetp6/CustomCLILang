@@ -1,2 +1,2 @@
 [console_scripts]
-customwincli = cli_interpreter:main
+open = core.cli_interpreter:main
