@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+CustomWindowsCLILang.egg-info/PKG-INFO
+CustomWindowsCLILang.egg-info/SOURCES.txt
+CustomWindowsCLILang.egg-info/dependency_links.txt
+CustomWindowsCLILang.egg-info/entry_points.txt
+CustomWindowsCLILang.egg-info/top_level.txt
+core/__init__.py
+core/app_operations.py
+core/file_operations.py

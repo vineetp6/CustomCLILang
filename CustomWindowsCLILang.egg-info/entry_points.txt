@@ -1,0 +1,2 @@
+[console_scripts]
+customwincli = cli_interpreter:main
